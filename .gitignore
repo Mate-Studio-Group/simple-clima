@@ -4,3 +4,14 @@ dist/
 web-build/
 *.log
 .DS_Store
+
+# Artefactos de build
+*.apk
+*.aab
+android/
+ios/
+
+# Credenciales: nunca commitear
+play-service-account.json
+*.keystore
+credentials.json
