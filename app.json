@@ -5,8 +5,19 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "dark",
-    "platforms": ["android", "ios"],
-    "android": { "package": "com.margenpro.clima" },
-    "ios": { "supportsTablet": false, "bundleIdentifier": "com.margenpro.clima" }
+    "platforms": [
+      "android",
+      "ios"
+    ],
+    "android": {
+      "package": "com.margenpro.clima"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.margenpro.clima"
+    },
+    "plugins": [
+      "expo-status-bar"
+    ]
   }
 }
