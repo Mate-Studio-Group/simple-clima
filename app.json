@@ -1,20 +1,28 @@
 {
   "expo": {
-    "name": "Clima",
+    "name": "Simple Clima",
     "slug": "simple-clima",
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "dark",
+    "backgroundColor": "#12182b",
+    "primaryColor": "#3b82f6",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#12182b"
+    },
     "platforms": [
-      "android",
-      "ios"
+      "android"
     ],
     "android": {
-      "package": "com.margenpro.clima"
-    },
-    "ios": {
-      "supportsTablet": false,
-      "bundleIdentifier": "com.margenpro.clima"
+      "package": "com.margen.simpleclima",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#12182b"
+      },
+      "permissions": []
     },
     "plugins": [
       "expo-status-bar"
